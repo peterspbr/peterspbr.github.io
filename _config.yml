@@ -28,7 +28,7 @@ twitter_username: HSPeterSS
 github_username:  peterspbr
 
 # Build settings
-theme: cayman
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
