@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Portifolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, swrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark-brown navbar-dark px-5 fixed-top">
+        <img class="navbar-brand" style="color: #D96E30;" src="" alt="Logo">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#portifolio" class="nav-link">Portifólio</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="carousel slider">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/banner.jpg" style="max-width: 100%;">
+            <div class="carousel-caption" style="top: 30%;">
+              <h1>Peter's webdesign portifólio</h1>
+              <p>Conheça meu portifólio de webdesign e faça seu site com a melhor qualidade do mercado, em questões estéticas e de segurança. Entre em contato e faça seu orçamento já!</p>
+            <button class="btn px-4" style="background-color: #D94F30; color: white">Contato</button>
+            <button class="btn px-4" style="border: 2px solid #D94F30; color: white;">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center p-5 bg-light" id="portifolio">
+          <h1>Meu trabalho</h1>
+          <p>Veja as minhas criações mais recentes.<br>Sempre busco fazer tudo nos mínimos detalhes para proporcionar o melhor conteúdo ao cliente e satisfazer seu público.</p>
+          <div class="col-sm-4">
+            <div class="card my-2">
+              <div class="card-body">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+              </div>
+              <div class="card-footer">Footer</div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card my-2">
+              <div class="card-body">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+              </div>
+              <div class="card-footer">Footer</div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card my-2">
+              <div class="card-body">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+              </div>
+              <div class="card-footer">Footer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row bg-orange text-white" id="about">
+          <div class="col-sm-6">
+            <img src="assets/images/sparkler.jpg" style="max-width: 100%;">
+          </div>
+          <div class="col-sm-6 py-5" style="text-align: justify;">
+            <h1>Personalidade, paixão e dedicação</h1><br>
+            <p>Faça seu orçamento hoje e descubra que fazer um site bom, seguro e totalmente personalizável é essencial para o crescimento de sua empresa ou projetos pessoais.</p>
+            <p>Descubra que um bom site, é aquele feito com paixão e dedicação, coisa que você não encontra em criadores de sites na Internet, pois estes nem sempre são tão seguros quanto dizem ser, são pouco personalizáveis e sempre deixam sua marca em algum lugarzinho escondido. E algo que você com certeza não quer é fazer propaganda grátis à outra empresa, certo?</p>
+          </div>
+        </div>
+        <div class="row bg-light">
+          <div class="col-sm-6 py-5" style="text-align: justify;">
+            <h1>Por que escolher o meu serviço?</h1><br>
+            <p>Ao escolher meus serviços você irá estar confiando sua marca em um profissional competente que sempre dá atenção aos mínimos detalhes, para que sua empresa seja conhecida e respeitada assim que o cliente entrar em seu website!</p>
+            <p>Além de experiência na área de webdesign, dedico também meu tempo para conhecer mais sobre a segurança digital, fazendo assim com que sempre tenha cuidado em cada detalhe para deixar seu site sempre seguro e disponível ao público.</p>
+          </div>
+          <div class="col-sm-6">
+            <img src="assets/images/security.jpg" style="max-width: 100%;">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row p-5" id="contact">
+          <h1>Entre em contato</h1>
+          <p>Se interessou pelo serviço? Entre em contato e faça seu orçamento hoje!</p>
+          <div class="col-sm-6">
+            <form action="script/contact.php" method="post">
+              <div class="form-group">
+                <label for="userName">Nome</label>
+                <input type="text" name="userName" class="form-control" id="userName" placeholder="Digite seu nome" required>
+              </div><br>
+              <div class="form-group">
+                <label for="userSurname">Sobrenome</label>
+                <input type="text" name="userSurname" class="form-control" id="userSurname" placeholder="Digite seu nome" required>
+              </div><br>
+              <div class="form-group">
+                <label for="userMail">E-mail</label>
+                <input type="email" name="userMail" class="form-control" id="userMail" placeholder="Digite seu e-mail" required>
+              </div><br>
+              <div class="form-group">
+                <label for="userPhone">Telefone</label>
+                <input type="number" name="userPhone" class="form-control" id="userPhone" placeholder="Digite seu número de telefone" required>
+              </div><br>
+              <div class="form-group">
+                <label for="userMessage">Mensagem</label>
+                <textarea class="form-control" id="userMessage" rows="8" cols="30" style="resize: none;"></textarea><br>
+                <button class="btn" style="background-color: #D94F30; color: white">Enviar</button>
+              </div><br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center bg-dark-brown text-white p-2">
+      <p>Criado por Peter | &copy; 2021 Todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
