@@ -21,7 +21,6 @@
 title: My website portifolio
 email: peter.spbr2002@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-"This is my own website portifolio repository. Here i put all of my websites that i made along my univesity life. Feel **free** to download all of them and use as well!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HSPeterSS
