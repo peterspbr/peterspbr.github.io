@@ -27,7 +27,7 @@ twitter_username: HSPeterSS
 github_username:  peterspbr
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
