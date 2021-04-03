@@ -1,0 +1,43 @@
+.banner {
+	background: url("../assets/images/banner.jpg");
+	background-size: 100%;
+}
+
+.bg-purple {
+	background-color: rgb(109, 33, 119);
+	color: white;
+}
+
+.bg-blue {
+	background-color: rgb(52, 194, 224);
+}
+
+.btn-blue {
+	background-color: rgb(52, 194, 224);
+	border: 2px solid rgb(52, 194, 224);
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	transition: .8s;
+}
+
+.btn-blue:hover {
+	color: white;
+	opacity: .8;
+	transition: .8s;
+}
+
+.btn-blue-wireframe {
+	background-color: transparent;
+	border: 2px solid rgb(52, 194, 224);
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	transition: .8s;
+}
+
+.btn-blue-wireframe:hover {
+	color: white;
+	opacity: .8;
+	transition: .8s;
+}
