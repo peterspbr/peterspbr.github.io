@@ -1,6 +1,6 @@
 ---
 title: x86 assembly reference
-layout: post
+layout: default
 ---
 ### x86 Assembly reference
 I wrote a easy for read x86 reference for who's is begginer or already have experience with assembly but don't remember some concepts.
