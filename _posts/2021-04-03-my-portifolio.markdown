@@ -8,3 +8,4 @@ Take a look into my portiflio:
 * [Easter day](/pascoa)
 * [Portifolio](/portifolio)
 * [Nubank clone](/nubank)
+* [KidsEduTech](/kidsedutech)
