@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "SF Pro";
+	src: url("../assets/fonts/SFProText-Regular.ttf");
+}
+
+body {
+	font-family: "SF Pro" !important;
+}
+a {
+	text-decoration: none !important;
+}
